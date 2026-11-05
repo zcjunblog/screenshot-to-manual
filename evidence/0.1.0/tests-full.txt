@@ -51,6 +51,6 @@ test_unknown_template_is_explicit (test_pipeline.TemplateTests.test_unknown_temp
 test_word_question_summary_keeps_literal_symbols (test_pipeline.TemplateTests.test_word_question_summary_keeps_literal_symbols) ... ok
 
 ----------------------------------------------------------------------
-Ran 51 tests in 2.153s
+Ran 51 tests in 1.480s
 
 OK

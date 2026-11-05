@@ -1,18 +1,29 @@
-<div align="center">
+<p align="center">
+  <img src="docs/images/screenshot-to-manual-cover.png" alt="截图转操作手册：从操作截图，到清晰的图文指南。步骤梳理、重点标注、三套模板，支持Word、PDF、Markdown。" width="100%">
+</p>
 
-# 截图转操作手册
+<h1 align="center">截图转操作手册</h1>
+<p align="center"><strong>把操作经验，整理成团队可以复用的工作指南。</strong></p>
+<p align="center">Screenshot to Manual<br>面向软件交付、员工培训与流程说明的跨客户端 Agent Skill</p>
+<p align="center">
+  <img alt="Agent Skills" src="https://img.shields.io/badge/Agent_Skills-Portable-1e3a5f?style=flat-square">
+  <a href="releases/0.1.0/screenshot-to-manual-0.1.0.zip"><img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-2563eb?style=flat-square"></a>
+  <img alt="Three document templates" src="https://img.shields.io/badge/Templates-3-1e3a5f?style=flat-square">
+  <img alt="Word PDF Markdown" src="https://img.shields.io/badge/Output-Word_%C2%B7_PDF_%C2%B7_Markdown-2563eb?style=flat-square">
+</p>
+<p align="center">
+  <a href="#核心能力">核心能力</a> ·
+  <a href="#工作流程">工作流程</a> ·
+  <a href="#文档模板">文档模板</a> ·
+  <a href="#快速开始">快速开始</a> ·
+  <a href="#示例与验证">实际样张</a>
+</p>
 
-**让操作截图，成为清晰、可编辑、可移交的图文指南。**
+操作经验往往留在几张截图和口头说明里。交付给客户、培训新同事或交接工作时，还需要补充动作说明、标出控件位置、核对完成状态，再整理成一份可以持续维护的文档。
 
-Screenshot to Manual · 跨客户端 Agent Skill
+**截图转操作手册将已有截图与简要说明组织成清晰的图文步骤，完成重点标注、指定区域脱敏和版式编排，生成可编辑Word、可阅读PDF，以及便于归档修订的Markdown与图片移交包。**
 
-[快速开始](#快速开始) · [工作流程](#工作流程) · [文档模板](#文档模板) · [交付内容](#交付内容)
-
-</div>
-
-截图转操作手册将用户提供的操作截图与简要说明，整理成带步骤编号、重点标注和待补充清单的图文手册，适用于软件交付、员工培训、客服支持和内部流程说明。
-
-当前Agent负责理解界面和业务语境，结构化步骤保留依据与不确定性，本地工具负责图片处理、文档生成和资源打包。截图没有展示的动作、权限或业务结果，继续作为待确认信息呈现。
+从资料整理到文档交付，始终保留三个关键信息：**在哪里操作、具体做什么、如何检查结果。** 截图未展示的过程和结果进入待确认清单，供实际操作者补充核对。
 
 ## 核心能力
 
@@ -26,6 +37,20 @@ Screenshot to Manual · 跨客户端 Agent Skill
 | 输入和版本需要保留 | 每次生成独立目录，原图只读，来源变更要求重新登记 |
 
 支持桌面与手机截图、同一手册中的混合尺寸，以及各行业已有软件操作说明。首版输入为PNG/JPEG；不包括自动录屏、账号采集或业务系统代操作。
+
+## 适用场景
+
+面向实施与交付人员、行政与培训团队、客服支持、业务负责人和教程作者。按原系统的按钮文案与业务语境组织说明，保留读者完成操作所需的上下文。
+
+| 场景 | 可以形成的手册 |
+| --- | --- |
+| 软件实施与客户交接 | 后台使用指南、配置说明、交付培训材料 |
+| 行政、人事与内部培训 | 入职操作指引、办公流程说明、系统培训讲义 |
+| 门店与服务团队 | 收银、预约、库存等已有系统的操作步骤 |
+| 客服与售后支持 | 常见操作教程、功能使用说明、问题处理步骤 |
+| 学校、机构与其他组织 | 平台操作指南、资料提交流程、内部使用手册 |
+
+以上为适用方向，实际内容取决于提供的截图与说明；独立行业与软件的验证范围见本版报告。
 
 ## 工作流程
 
@@ -138,10 +163,17 @@ python3 tools/smoke_archive.py
 
 测试环境需要Pillow，Word相关用例按可选依赖运行；不会将固定样例通过写成所有客户端、行业或操作均已验证。
 
-## 项目状态
+## 路线图与开源计划
 
-v0.1.0已实现标准与WorkBuddy双包、三套文档模板和可复现示例，验证范围与限制见本版报告。市场提审和仓库公开尚未执行。许可证、收费与公开范围另行决定。
+v0.1.0聚焦截图整理、步骤依据、可编辑交付和三套文档模板。后续结合实际使用反馈继续完善：
+
+- 更多行业与独立软件案例，以及真实读者试用。
+- 用户自有品牌与文档模板映射。
+- 既有手册的增量更新与截图替换。
+- 更多客户端、操作系统与文档转换环境的验证。
+
+项目计划在发布后开源。公开前补齐许可证、贡献说明与发布资料，具体使用条款以正式许可证为准。当前正在准备WorkBuddy技能市场提审，提交状态以[提审记录](docs/marketplace/submission.md)为准；仓库尚未公开。
 
 [版本记录](CHANGELOG.md) · [产品设计](memory-bank/design.md) · [开发待办](memory-bank/todo.md) · [校验摘要](releases/0.1.0/SHA256SUMS)
 
-Created by [zcjunblog](https://github.com/zcjunblog)
+<p align="center">Created by <a href="https://github.com/zcjunblog">zcjunblog</a> · <a href="https://github.com/zcjunblog/customer-requirements-assistant">客户需求整理助手</a> · <a href="https://github.com/zcjunblog/sitecraft">Sitecraft 官网设计 Skill</a></p>

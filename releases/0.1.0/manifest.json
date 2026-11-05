@@ -80,12 +80,12 @@
     {
       "profile": "workbuddy",
       "archive": "screenshot-to-manual-workbuddy-0.1.0.zip",
-      "bytes": 28138,
-      "sha256": "4ff7737ad0e30b3270c2949e8dd4a989b7ff01722d9b3db8757b8557bd3e90e7",
+      "bytes": 28236,
+      "sha256": "81129d7ad62acb52662b82514949e44bc6defb4634eb6155131b8eb5293217d9",
       "files": [
         {
           "path": "SKILL.md",
-          "sha256": "7b3b931e6bf45a738149a1827850bf9efac82903ad2752ab8ee4bf88846e390d"
+          "sha256": "4c14d4b988a1ad2786d4989224529da3e6bf4191eae5b640872ae7a385bd119a"
         },
         {
           "path": "VERSION",
