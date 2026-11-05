@@ -1,0 +1,9 @@
+{
+  "display_name":"截图转操作手册",
+  "display_name_en":"Screenshot to Manual",
+  "description_zh":"将操作截图与简要说明整理为带步骤编号、重点标注和检查要点的图文手册，适用于软件交付、员工培训与客服教程。",
+  "description_en":"Turn screenshots and notes into illustrated draft manuals with numbered steps, annotated targets and visible information gaps.",
+  "author":"zcjunblog",
+  "examples_zh":["把这些后台截图整理成给新员工看的图文操作手册。","按我提供的顺序生成客户使用说明，并遮盖截图中的个人信息。","检查这些截图是否缺步骤，生成带待补充清单的教程草稿。"],
+  "examples_en":["Turn these dashboard screenshots into an illustrated handbook for new employees.","Create a client user guide in the supplied order and redact personal information in the screenshots.","Find missing steps and create a tutorial draft with an information-gap checklist."]
+}

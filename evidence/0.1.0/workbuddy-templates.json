@@ -1,0 +1,38 @@
+{
+  "client": "WorkBuddy V5.9.3",
+  "model": "DeepSeek-V4.1-Flash",
+  "date": "2026-11-05",
+  "records": [
+    {
+      "template": "office",
+      "directory": "outputs/workbuddy-smoke/模板对比/office/手册-20261105-161756-xy5vh_c6",
+      "word": "generated",
+      "pdf": "generated",
+      "pdf_pages": 5,
+      "hashes_verified": 12,
+      "handoff_whitelist": "passed",
+      "md_sha256": "90b492321b1de922436a88aee606eb7a596d784837c7fe9f843f0443e3ae131b"
+    },
+    {
+      "template": "delivery",
+      "directory": "outputs/workbuddy-smoke/模板对比/delivery/手册-20261105-161800-cb_thrmv",
+      "word": "generated",
+      "pdf": "generated",
+      "pdf_pages": 6,
+      "hashes_verified": 12,
+      "handoff_whitelist": "passed",
+      "md_sha256": "90b492321b1de922436a88aee606eb7a596d784837c7fe9f843f0443e3ae131b"
+    },
+    {
+      "template": "training",
+      "directory": "outputs/workbuddy-smoke/模板对比/training/手册-20261105-161802-6xbnr1c2",
+      "word": "generated",
+      "pdf": "generated",
+      "pdf_pages": 5,
+      "hashes_verified": 12,
+      "handoff_whitelist": "passed",
+      "md_sha256": "90b492321b1de922436a88aee606eb7a596d784837c7fe9f843f0443e3ae131b"
+    }
+  ],
+  "limitation": "此轮成功导出后发现长标题与training续页问题；最终修订用原模型本地逐页验证，见client-layout-fix.json。"
+}

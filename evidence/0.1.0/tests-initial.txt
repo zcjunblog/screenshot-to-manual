@@ -1,0 +1,30 @@
+test_annotation_cannot_expose_redaction (test_pipeline.PipelineTests.test_annotation_cannot_expose_redaction) ... ok
+test_bad_format (test_pipeline.PipelineTests.test_bad_format) ... ok
+test_batch_limit (test_pipeline.PipelineTests.test_batch_limit) ... ok
+test_changed_input_rejected (test_pipeline.PipelineTests.test_changed_input_rejected) ... ok
+test_crop_must_contain_annotation (test_pipeline.PipelineTests.test_crop_must_contain_annotation) ... ok
+test_crop_transforms_annotation (test_pipeline.PipelineTests.test_crop_transforms_annotation) ... ok
+test_empty_steps (test_pipeline.PipelineTests.test_empty_steps) ... ok
+test_exif_orientation (test_pipeline.PipelineTests.test_exif_orientation) ... ok
+test_export_relative_complete_exclusive (test_pipeline.PipelineTests.test_export_relative_complete_exclusive) ... ok
+test_false_note (test_pipeline.PipelineTests.test_false_note) ... ok
+test_ingest_hash_and_notes (test_pipeline.PipelineTests.test_ingest_hash_and_notes) ... ok
+test_invalid_box (test_pipeline.PipelineTests.test_invalid_box) ... ok
+test_invalid_types (test_pipeline.PipelineTests.test_invalid_types) ... ok
+test_missing_step_is_visible (test_pipeline.PipelineTests.test_missing_step_is_visible) ... ok
+test_note_action_requires_quote (test_pipeline.PipelineTests.test_note_action_requires_quote) ... ok
+test_order_uncertain_not_verified (test_pipeline.PipelineTests.test_order_uncertain_not_verified) ... ok
+test_partial_failure_and_duplicate (test_pipeline.PipelineTests.test_partial_failure_and_duplicate) ... ok
+test_pdf_missing_reports_limitation (test_pipeline.PipelineTests.test_pdf_missing_reports_limitation) ... ok
+test_redaction_pixels_and_metadata_removed (test_pipeline.PipelineTests.test_redaction_pixels_and_metadata_removed) ... ok
+test_redaction_review_required (test_pipeline.PipelineTests.test_redaction_review_required) ... ok
+test_required_pdf_failure_does_not_publish_partial (test_pipeline.PipelineTests.test_required_pdf_failure_does_not_publish_partial) ... ok
+test_unique_ids (test_pipeline.PipelineTests.test_unique_ids) ... ok
+test_unknown_image (test_pipeline.PipelineTests.test_unknown_image) ... ok
+test_valid (test_pipeline.PipelineTests.test_valid) ... ok
+test_word_embeds_only_derived_png (test_pipeline.PipelineTests.test_word_embeds_only_derived_png) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.367s
+
+OK

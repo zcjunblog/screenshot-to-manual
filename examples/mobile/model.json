@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "title": "办公用品申请操作手册",
+  "audience": "首次使用演示台的新员工",
+  "purpose": "按照截图完成一条办公用品申请，并核对演示列表显示的结果。所有数据均为虚构测试数据。",
+  "software_version": "本地演示程序0.1",
+  "order_basis": "user",
+  "prerequisites": [
+    "已打开虚构演示程序的申请管理页面。"
+  ],
+  "privacy": {
+    "I001": {
+      "reviewed": true,
+      "redactions": []
+    },
+    "I002": {
+      "reviewed": true,
+      "redactions": [
+        [
+          82,
+          1038,
+          698,
+          1123
+        ]
+      ]
+    },
+    "I003": {
+      "reviewed": true,
+      "redactions": []
+    }
+  },
+  "steps": [
+    {
+      "step_id": "T1",
+      "title": "打开申请表单",
+      "image_id": "I001",
+      "observation": "当前显示申请列表与新建申请入口。",
+      "target": "新建申请按钮",
+      "action": "点击“新建申请”打开表单。",
+      "expected_result": "显示新建申请表单。",
+      "result_basis": "user_note",
+      "evidence_status": "user_note",
+      "source_notes": [
+        {
+          "note_id": "N001",
+          "quote": "点击“新建申请”打开表单。"
+        }
+      ],
+      "annotations": [
+        {
+          "box": [
+            510,
+            420,
+            702,
+            509
+          ],
+          "label": "1"
+        }
+      ],
+      "crop": [
+        40,
+        380,
+        740,
+        900
+      ],
+      "open_questions": []
+    },
+    {
+      "step_id": "T2",
+      "title": "填写信息并提交",
+      "image_id": "I002",
+      "observation": "当前显示物品名称、申请数量和申请人字段；演示申请人区域已按要求遮盖。",
+      "target": "物品名称与申请数量字段和提交申请按钮",
+      "action": "在“物品名称”填入“演示笔记本”，将“申请数量”改为2，然后点击“提交申请”。",
+      "expected_result": "提交后返回列表，演示页显示提交成功。",
+      "result_basis": "user_note",
+      "evidence_status": "user_note",
+      "source_notes": [
+        {
+          "note_id": "N002",
+          "quote": "在“物品名称”填入“演示笔记本”，将“申请数量”改为2，然后点击“提交申请”。"
+        }
+      ],
+      "annotations": [
+        {
+          "box": [
+            78,
+            1244,
+            270,
+            1333
+          ],
+          "label": "1"
+        }
+      ],
+      "crop": [
+        40,
+        380,
+        740,
+        1400
+      ],
+      "open_questions": []
+    },
+    {
+      "step_id": "T3",
+      "title": "核对列表结果",
+      "image_id": "I003",
+      "observation": "当前显示提交成功提示，列表内有演示笔记本，数量2，状态待处理。",
+      "target": "提交成功提示与申请列表",
+      "action": "提交后在列表核对“演示笔记本”、数量2和“待处理”状态。界面提示只证明演示页显示，不能代表采购审批完成。",
+      "expected_result": "列表显示与用户说明相符；采购审批或后台业务结果不在本次截图验证范围。",
+      "result_basis": "user_note",
+      "evidence_status": "user_note",
+      "source_notes": [
+        {
+          "note_id": "N003",
+          "quote": "提交后在列表核对“演示笔记本”、数量2和“待处理”状态。界面提示只证明演示页显示，不能代表采购审批完成。"
+        }
+      ],
+      "annotations": [
+        {
+          "box": [
+            78,
+            420,
+            702,
+            525
+          ],
+          "label": "1"
+        }
+      ],
+      "crop": [
+        40,
+        380,
+        740,
+        1040
+      ],
+      "open_questions": []
+    }
+  ],
+  "open_questions": []
+}

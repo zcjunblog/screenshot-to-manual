@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "method": "已导入候选包基础上更新自有Skill资源，逐文件匹配最终WorkBuddy ZIP",
+  "archive_sha256": "4ff7737ad0e30b3270c2949e8dd4a989b7ff01722d9b3db8757b8557bd3e90e7",
+  "matched_files": [
+    "SKILL.md",
+    "VERSION",
+    "agents/openai.yaml",
+    "references/runtime.md",
+    "references/schema.md",
+    "references/templates.md",
+    "requirements-optional.txt",
+    "requirements.txt",
+    "scripts/common.py",
+    "scripts/document.py",
+    "scripts/export.py",
+    "scripts/images.py",
+    "scripts/intake.py",
+    "scripts/manual_tool.py",
+    "scripts/validate.py",
+    "templates/manual.json",
+    "templates/styles.json"
+  ],
+  "backup_retained": true
+}

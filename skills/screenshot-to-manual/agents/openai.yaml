@@ -1,0 +1,4 @@
+interface:
+  display_name: "截图转操作手册"
+  short_description: "将操作截图与说明整理为可追溯的图文手册，标记重点位置、缺失步骤与待确认信息。"
+  default_prompt: "使用 $screenshot-to-manual 将这些截图整理成图文操作手册，保留不确定步骤和待补充信息。"

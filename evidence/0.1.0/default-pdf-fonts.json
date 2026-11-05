@@ -1,0 +1,26 @@
+[
+  {
+    "template": "office",
+    "directory": "outputs/default-pdf-proof/手册-20261105-161249-z2902t73",
+    "pages": 4,
+    "chinese_text_roundtrip": true,
+    "converter": "/Users/zzc/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "explicit_fontconfig": false
+  },
+  {
+    "template": "delivery",
+    "directory": "outputs/default-pdf-proof/手册-20261105-161252-o_hndslu",
+    "pages": 5,
+    "chinese_text_roundtrip": true,
+    "converter": "/Users/zzc/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "explicit_fontconfig": false
+  },
+  {
+    "template": "training",
+    "directory": "outputs/default-pdf-proof/手册-20261105-161253-cmd1mvj_",
+    "pages": 3,
+    "chinese_text_roundtrip": true,
+    "converter": "/Users/zzc/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "explicit_fontconfig": false
+  }
+]

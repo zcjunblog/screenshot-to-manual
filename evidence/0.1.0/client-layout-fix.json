@@ -1,0 +1,20 @@
+[
+  {
+    "template": "delivery",
+    "directory": "outputs/client-layout-fix/delivery/手册-20261105-162624-kua_7ubz",
+    "pages": 6,
+    "visual_review": "passed",
+    "review_note": "逐页打开原尺寸PNG，共11页；长标题单行完整，培训开篇独立成页，首步无孤立观察续页，图文/中文/遮盖与页码可读。",
+    "hashes_verified": 12,
+    "execution": "本地用真实客户端产出的原模型重新导出；未改变业务内容"
+  },
+  {
+    "template": "training",
+    "directory": "outputs/client-layout-fix/training/手册-20261105-162629-_voxhcr9",
+    "pages": 5,
+    "visual_review": "passed",
+    "review_note": "逐页打开原尺寸PNG，共11页；长标题单行完整，培训开篇独立成页，首步无孤立观察续页，图文/中文/遮盖与页码可读。",
+    "hashes_verified": 12,
+    "execution": "本地用真实客户端产出的原模型重新导出；未改变业务内容"
+  }
+]

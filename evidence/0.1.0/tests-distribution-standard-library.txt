@@ -1,0 +1,17 @@
+test_client_installs_and_dry_run (test_distribution.DistributionTests) ... ok
+test_custom_destination_and_symlink_protection (test_distribution.DistributionTests) ... ok
+test_custom_root_with_explicit_writable_work_directory (test_distribution.DistributionTests) ... ok
+test_dotdot_cannot_target_repository_source (test_distribution.DistributionTests) ... ok
+test_reinstall_refuses_and_replace_preserves_backup (test_distribution.DistributionTests) ... ok
+test_replacement_rejects_symlinked_backup_root (test_distribution.DistributionTests) ... ok
+test_standard_entrypoint_and_resources (test_distribution.DistributionTests) ... ok
+test_two_standalone_reproducible_packages (test_distribution.DistributionTests) ... ok
+test_user_scope_and_invalid_arguments_do_not_target_project (test_distribution.DistributionTests) ... ok
+test_work_directory_cannot_be_scanned_skill_root (test_distribution.DistributionTests) ... ok
+test_workbuddy_build_rejects_invalid_examples (test_distribution.DistributionTests) ... ok
+test_workbuddy_examples_have_matching_translations (test_distribution.DistributionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.668s
+
+OK

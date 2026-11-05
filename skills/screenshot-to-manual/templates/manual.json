@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "title": "项目操作手册",
+  "audience": "目标读者待补充",
+  "purpose": "手册用途待补充",
+  "software_version": "未知",
+  "order_basis": "unknown",
+  "prerequisites": [],
+  "privacy": {},
+  "steps": [
+    {
+      "step_id": "T1",
+      "title": "待补充步骤",
+      "image_id": null,
+      "observation": "尚无截图依据",
+      "target": "待确认",
+      "action": "操作待确认",
+      "expected_result": "完成标志未知",
+      "result_basis": "unknown",
+      "evidence_status": "missing",
+      "source_notes": [],
+      "annotations": [],
+      "crop": null,
+      "open_questions": [
+        "请补充该步骤的截图和操作说明。"
+      ]
+    }
+  ],
+  "open_questions": []
+}

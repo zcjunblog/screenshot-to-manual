@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "client": "WorkBuddy V5.9.3",
+  "model": "DeepSeek-V4.1-Flash",
+  "input": "3张真实运行的虚构演示截图及notes，未提供人工预期模型",
+  "task": "生成办公用品申请操作手册",
+  "import_risk": "低风险",
+  "rounds": "首轮7步，修订后4步，未读取人工预期答案",
+  "final_directory": "outputs/workbuddy-smoke/交付/手册-20261105-154104-ekoaok7t",
+  "steps": 4,
+  "pdf_pages": 4,
+  "hashes_verified": 12,
+  "handoff_entries": [
+    "assets/step-001.png",
+    "assets/step-002.png",
+    "assets/step-003.png",
+    "assets/step-004.png",
+    "待补充信息.md",
+    "操作手册.docx",
+    "操作手册.md",
+    "操作手册.pdf"
+  ],
+  "content_check": "四个步骤标题在Word与Markdown一致；未把已选菜单状态当作已发生点击；使用来源ID和自动图号",
+  "remaining": "保留7条待确认；缺少填写完成后的截图；未经过独立读者试用。三模板后续另测。"
+}

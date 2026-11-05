@@ -1,0 +1,32 @@
+[
+  {
+    "case": "desktop",
+    "directory": "outputs/0.1.0/desktop/手册-20261105-153852-ukp7aeo7",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 3,
+    "visual_review": "passed",
+    "public_asset_audit": "passed",
+    "note": "历史基础版，逐页检查完成；当前模板样张见template-renders.json。"
+  },
+  {
+    "case": "mobile",
+    "directory": "outputs/0.1.0/mobile/手册-20261105-153856-_ml3yu6b",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 3,
+    "visual_review": "passed",
+    "public_asset_audit": "passed",
+    "note": "历史基础版，逐页检查完成；当前模板样张见template-renders.json。"
+  },
+  {
+    "case": "mixed",
+    "directory": "outputs/0.1.0/mixed/手册-20261105-153859-7tv9ugmm",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 3,
+    "visual_review": "passed",
+    "public_asset_audit": "passed",
+    "note": "历史基础版，逐页检查完成；当前模板样张见template-renders.json。"
+  }
+]

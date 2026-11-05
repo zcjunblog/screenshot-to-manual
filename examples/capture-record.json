@@ -1,0 +1,96 @@
+[
+  {
+    "case": "desktop",
+    "index": 1,
+    "file": "examples/screenshots/desktop/1.png",
+    "control": "#new",
+    "box": {
+      "x": 1017,
+      "y": 242.1875,
+      "width": 112,
+      "height": 48
+    },
+    "owner": null,
+    "pixel_ratio": 2
+  },
+  {
+    "case": "desktop",
+    "index": 2,
+    "file": "examples/screenshots/desktop/2.png",
+    "control": "#submit",
+    "box": {
+      "x": 281,
+      "y": 654.28125,
+      "width": 112,
+      "height": 48
+    },
+    "owner": {
+      "x": 281,
+      "y": 549.09375,
+      "width": 502,
+      "height": 46
+    },
+    "pixel_ratio": 2
+  },
+  {
+    "case": "desktop",
+    "index": 3,
+    "file": "examples/screenshots/desktop/3.png",
+    "control": ".success",
+    "box": {
+      "x": 281,
+      "y": 242.1875,
+      "width": 848,
+      "height": 52
+    },
+    "owner": null,
+    "pixel_ratio": 2
+  },
+  {
+    "case": "mobile",
+    "index": 1,
+    "file": "examples/screenshots/mobile/1.png",
+    "control": "#new",
+    "box": {
+      "x": 255,
+      "y": 210.1875,
+      "width": 96,
+      "height": 44
+    },
+    "owner": null,
+    "pixel_ratio": 2
+  },
+  {
+    "case": "mobile",
+    "index": 2,
+    "file": "examples/screenshots/mobile/2.png",
+    "control": "#submit",
+    "box": {
+      "x": 39,
+      "y": 622.28125,
+      "width": 96,
+      "height": 44
+    },
+    "owner": {
+      "x": 39,
+      "y": 517.09375,
+      "width": 312,
+      "height": 46
+    },
+    "pixel_ratio": 2
+  },
+  {
+    "case": "mobile",
+    "index": 3,
+    "file": "examples/screenshots/mobile/3.png",
+    "control": ".success",
+    "box": {
+      "x": 39,
+      "y": 210.1875,
+      "width": 312,
+      "height": 52
+    },
+    "owner": null,
+    "pixel_ratio": 2
+  }
+]

@@ -13,3 +13,5 @@ outputs/
 dist/
 tmp/
 *.log
+
+examples/*/sources.json

@@ -1,0 +1,56 @@
+test_client_installs_and_dry_run (test_distribution.DistributionTests.test_client_installs_and_dry_run) ... ok
+test_custom_destination_and_symlink_protection (test_distribution.DistributionTests.test_custom_destination_and_symlink_protection) ... ok
+test_custom_root_with_explicit_writable_work_directory (test_distribution.DistributionTests.test_custom_root_with_explicit_writable_work_directory) ... ok
+test_dotdot_cannot_target_repository_source (test_distribution.DistributionTests.test_dotdot_cannot_target_repository_source) ... ok
+test_reinstall_refuses_and_replace_preserves_backup (test_distribution.DistributionTests.test_reinstall_refuses_and_replace_preserves_backup) ... ok
+test_replacement_rejects_symlinked_backup_root (test_distribution.DistributionTests.test_replacement_rejects_symlinked_backup_root) ... ok
+test_standard_entrypoint_and_resources (test_distribution.DistributionTests.test_standard_entrypoint_and_resources) ... ok
+test_two_standalone_reproducible_packages (test_distribution.DistributionTests.test_two_standalone_reproducible_packages) ... ok
+test_user_scope_and_invalid_arguments_do_not_target_project (test_distribution.DistributionTests.test_user_scope_and_invalid_arguments_do_not_target_project) ... ok
+test_work_directory_cannot_be_scanned_skill_root (test_distribution.DistributionTests.test_work_directory_cannot_be_scanned_skill_root) ... ok
+test_workbuddy_build_rejects_invalid_examples (test_distribution.DistributionTests.test_workbuddy_build_rejects_invalid_examples) ... ok
+test_workbuddy_examples_have_matching_translations (test_distribution.DistributionTests.test_workbuddy_examples_have_matching_translations) ... ok
+test_annotation_cannot_expose_redaction (test_pipeline.PipelineTests.test_annotation_cannot_expose_redaction) ... ok
+test_bad_format (test_pipeline.PipelineTests.test_bad_format) ... ok
+test_batch_limit (test_pipeline.PipelineTests.test_batch_limit) ... ok
+test_changed_input_rejected (test_pipeline.PipelineTests.test_changed_input_rejected) ... ok
+test_crop_must_contain_annotation (test_pipeline.PipelineTests.test_crop_must_contain_annotation) ... ok
+test_crop_transforms_annotation (test_pipeline.PipelineTests.test_crop_transforms_annotation) ... ok
+test_empty_steps (test_pipeline.PipelineTests.test_empty_steps) ... ok
+test_exif_orientation (test_pipeline.PipelineTests.test_exif_orientation) ... ok
+test_export_relative_complete_exclusive (test_pipeline.PipelineTests.test_export_relative_complete_exclusive) ... ok
+test_false_note (test_pipeline.PipelineTests.test_false_note) ... ok
+test_ingest_hash_and_notes (test_pipeline.PipelineTests.test_ingest_hash_and_notes) ... ok
+test_invalid_box (test_pipeline.PipelineTests.test_invalid_box) ... ok
+test_invalid_source_digest_is_reported (test_pipeline.PipelineTests.test_invalid_source_digest_is_reported) ... ok
+test_invalid_types (test_pipeline.PipelineTests.test_invalid_types) ... ok
+test_missing_image_id_key_rejected (test_pipeline.PipelineTests.test_missing_image_id_key_rejected) ... ok
+test_missing_step_is_visible (test_pipeline.PipelineTests.test_missing_step_is_visible) ... ok
+test_narrow_crop_keeps_every_number_visible (test_pipeline.PipelineTests.test_narrow_crop_keeps_every_number_visible) ... ok
+test_note_action_requires_quote (test_pipeline.PipelineTests.test_note_action_requires_quote) ... ok
+test_numbers_match_distinct_frame_colors (test_pipeline.PipelineTests.test_numbers_match_distinct_frame_colors) ... ok
+test_order_uncertain_not_verified (test_pipeline.PipelineTests.test_order_uncertain_not_verified) ... ok
+test_partial_failure_and_duplicate (test_pipeline.PipelineTests.test_partial_failure_and_duplicate) ... ok
+test_pdf_converter_failure_reports_only_real_files (test_pipeline.PipelineTests.test_pdf_converter_failure_reports_only_real_files) ... ok
+test_pdf_missing_reports_limitation (test_pipeline.PipelineTests.test_pdf_missing_reports_limitation) ... ok
+test_redaction_pixels_and_metadata_removed (test_pipeline.PipelineTests.test_redaction_pixels_and_metadata_removed) ... ok
+test_redaction_review_required (test_pipeline.PipelineTests.test_redaction_review_required) ... ok
+test_required_pdf_failure_does_not_publish_partial (test_pipeline.PipelineTests.test_required_pdf_failure_does_not_publish_partial) ... ok
+test_source_snapshot_survives_concurrent_replacement (test_pipeline.PipelineTests.test_source_snapshot_survives_concurrent_replacement) ... ok
+test_transparent_hidden_rgb_is_not_exposed (test_pipeline.PipelineTests.test_transparent_hidden_rgb_is_not_exposed) ... ok
+test_unique_ids (test_pipeline.PipelineTests.test_unique_ids) ... ok
+test_unknown_image (test_pipeline.PipelineTests.test_unknown_image) ... ok
+test_valid (test_pipeline.PipelineTests.test_valid) ... ok
+test_word_embeds_only_derived_png (test_pipeline.PipelineTests.test_word_embeds_only_derived_png) ... ok
+test_handoff_excludes_converter_residuals (test_pipeline.TemplateTests.test_handoff_excludes_converter_residuals) ... ok
+test_macos_converter_uses_its_own_fontconfig_without_global_changes (test_pipeline.TemplateTests.test_macos_converter_uses_its_own_fontconfig_without_global_changes) ... ok
+test_macos_launcher_font_fallback_stays_private (test_pipeline.TemplateTests.test_macos_launcher_font_fallback_stays_private) ... ok
+test_pdf_conversion_uses_private_directory (test_pipeline.TemplateTests.test_pdf_conversion_uses_private_directory) ... ok
+test_template_variants_keep_facts_and_images (test_pipeline.TemplateTests.test_template_variants_keep_facts_and_images) ... ok
+test_unknown_template_is_explicit (test_pipeline.TemplateTests.test_unknown_template_is_explicit) ... ok
+test_word_question_summary_keeps_literal_symbols (test_pipeline.TemplateTests.test_word_question_summary_keeps_literal_symbols) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 2.153s
+
+OK

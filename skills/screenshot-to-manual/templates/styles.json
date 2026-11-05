@@ -1,0 +1,5 @@
+{
+  "office": {"name":"清爽办公","subtitle":"操作指南","accent":"245DB1","pale":"EDF4FD","title_size":26,"heading_size":16,"body_size":11,"cover":false,"overview":true,"image_first":false,"image_height":10.6},
+  "delivery": {"name":"正式交付","subtitle":"使用与交付手册","accent":"174D69","pale":"EDF4F7","title_size":32,"heading_size":17,"body_size":11,"cover":true,"overview":true,"image_first":false,"image_height":11.4},
+  "training": {"name":"培训图解","subtitle":"分步学习指南","accent":"237CAE","pale":"EEF7FC","title_size":28,"heading_size":20,"body_size":11.5,"cover":false,"overview":false,"image_first":true,"image_height":12.0}
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "template": "office",
+    "name": "清爽办公",
+    "directory": "outputs/0.1.0/templates/office/手册-20261105-160715-muyac6x3",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 4,
+    "visual_review": "passed",
+    "review_note": "逐页打开原尺寸PNG，检查中文、表格列宽、图号、遮盖、图文对应与页码；没有重叠、断字或孤立标题。"
+  },
+  {
+    "template": "delivery",
+    "name": "正式交付",
+    "directory": "outputs/0.1.0/templates/delivery/手册-20261105-160719-lnr13002",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 5,
+    "visual_review": "passed",
+    "review_note": "逐页打开原尺寸PNG，检查中文、表格列宽、图号、遮盖、图文对应与页码；没有重叠、断字或孤立标题。"
+  },
+  {
+    "template": "training",
+    "name": "培训图解",
+    "directory": "outputs/0.1.0/templates/training/手册-20261105-160722-vmvbv850",
+    "word": "generated",
+    "pdf": "generated",
+    "pages": 3,
+    "visual_review": "passed",
+    "review_note": "逐页打开原尺寸PNG，检查中文、表格列宽、图号、遮盖、图文对应与页码；没有重叠、断字或孤立标题。"
+  }
+]

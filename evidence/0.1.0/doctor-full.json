@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "python": "3.12.14",
+  "python_supported": true,
+  "images": true,
+  "word": true,
+  "pdf_converter": true
+}
