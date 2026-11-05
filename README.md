@@ -172,7 +172,7 @@ v0.1.0聚焦截图整理、步骤依据、可编辑交付和三套文档模板�
 - 既有手册的增量更新与截图替换。
 - 更多客户端、操作系统与文档转换环境的验证。
 
-项目计划在发布后开源。公开前补齐许可证、贡献说明与发布资料，具体使用条款以正式许可证为准。当前正在准备WorkBuddy技能市场提审，提交状态以[提审记录](docs/marketplace/submission.md)为准；仓库尚未公开。
+项目计划在发布后开源。公开前补齐许可证、贡献说明与发布资料，具体使用条款以正式许可证为准。v0.1.0已提交WorkBuddy技能市场审核，当前尚未上线，详见[提审记录](docs/marketplace/submission.md)；仓库尚未公开。
 
 [版本记录](CHANGELOG.md) · [产品设计](memory-bank/design.md) · [开发待办](memory-bank/todo.md) · [校验摘要](releases/0.1.0/SHA256SUMS)
 
