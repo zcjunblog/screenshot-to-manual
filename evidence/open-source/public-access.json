@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-06",
+  "repository": "https://github.com/zcjunblog/screenshot-to-manual",
+  "visibility": "public",
+  "license": "MIT",
+  "source_commit": "89ea98b8da1fab8d40c21715a2fef87e278d2a5c",
+  "anonymous_repository_api_access": true,
+  "anonymous_files": [
+    {
+      "path": "README.md",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 14283
+    },
+    {
+      "path": "LICENSE",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 1066
+    },
+    {
+      "path": "releases/0.1.0/screenshot-to-manual-0.1.0.zip",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 27659
+    },
+    {
+      "path": "releases/0.1.0/screenshot-to-manual-workbuddy-0.1.0.zip",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 28236
+    },
+    {
+      "path": "docs/images/screenshot-to-manual-cover.png",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 1440439
+    },
+    {
+      "path": "examples/template-previews/overview.png",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 197874
+    },
+    {
+      "path": "examples/template-previews/office/操作手册.pdf",
+      "anonymous_http_status": 200,
+      "sha256_matches_local": true,
+      "bytes": 323700
+    }
+  ]
+}

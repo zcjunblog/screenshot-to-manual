@@ -2,7 +2,7 @@
   "date": "2026-11-06",
   "repository": "https://github.com/zcjunblog/screenshot-to-manual",
   "license": "MIT",
-  "stage": "ready_to_open_source",
+  "stage": "public_verified",
   "history": {
     "scope": "all locally available Git refs, blobs and nested ZIP contents",
     "git_objects_checked": 189,
@@ -14,7 +14,7 @@
     "commit_history_preserved": true
   },
   "current_tree": {
-    "files_checked": 122,
+    "files_checked": 125,
     "developer_home_paths_absent": true,
     "local_markdown_and_html_links_valid": true,
     "private_runtime_paths_ignored": true,
@@ -45,5 +45,7 @@
     }
   ],
   "marketplace_overview_modified": false,
-  "release_copy_rule": "Future user-facing overviews explain scenarios, capabilities, steps, outcomes and necessary conditions. Test/CI/acceptance details stay in engineering evidence."
+  "release_copy_rule": "Future user-facing overviews explain scenarios, capabilities, steps, outcomes and necessary conditions. Test/CI/acceptance details stay in engineering evidence.",
+  "visibility": "public",
+  "anonymous_access_evidence": "public-access.json"
 }
