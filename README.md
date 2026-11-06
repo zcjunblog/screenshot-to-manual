@@ -6,8 +6,9 @@
 <p align="center"><strong>把操作经验，整理成团队可以复用的工作指南。</strong></p>
 <p align="center">Screenshot to Manual<br>面向软件交付、员工培训与流程说明的跨客户端 Agent Skill</p>
 <p align="center">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-2563eb?style=flat-square"></a>
   <img alt="Agent Skills" src="https://img.shields.io/badge/Agent_Skills-Portable-1e3a5f?style=flat-square">
-  <a href="releases/0.1.0/screenshot-to-manual-0.1.0.zip"><img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-2563eb?style=flat-square"></a>
+  <a href="https://raw.githubusercontent.com/zcjunblog/screenshot-to-manual/main/releases/0.1.0/screenshot-to-manual-0.1.0.zip"><img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-2563eb?style=flat-square"></a>
   <img alt="Three document templates" src="https://img.shields.io/badge/Templates-3-1e3a5f?style=flat-square">
   <img alt="Word PDF Markdown" src="https://img.shields.io/badge/Output-Word_%C2%B7_PDF_%C2%B7_Markdown-2563eb?style=flat-square">
 </p>
@@ -16,7 +17,8 @@
   <a href="#工作流程">工作流程</a> ·
   <a href="#文档模板">文档模板</a> ·
   <a href="#快速开始">快速开始</a> ·
-  <a href="#示例与验证">实际样张</a>
+  <a href="#示例与验证">实际样张</a> ·
+  <a href="#参与贡献与许可证">参与贡献</a>
 </p>
 
 操作经验往往留在几张截图和口头说明里。交付给客户、培训新同事或交接工作时，还需要补充动作说明、标出控件位置、核对完成状态，再整理成一份可以持续维护的文档。
@@ -91,12 +93,14 @@ flowchart LR
 
 ### 1 选择安装方式
 
-- [通用Skill包 v0.1.0](releases/0.1.0/screenshot-to-manual-0.1.0.zip)：用于支持Agent Skills目录或可显式读取Skill的客户端。
-- [WorkBuddy专用包 v0.1.0](releases/0.1.0/screenshot-to-manual-workbuddy-0.1.0.zip)：在「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」中导入。
+- [通用Skill包 v0.1.0](https://raw.githubusercontent.com/zcjunblog/screenshot-to-manual/main/releases/0.1.0/screenshot-to-manual-0.1.0.zip)：用于支持Agent Skills目录或可显式读取Skill的客户端。
+- [WorkBuddy专用包 v0.1.0](https://raw.githubusercontent.com/zcjunblog/screenshot-to-manual/main/releases/0.1.0/screenshot-to-manual-workbuddy-0.1.0.zip)：在「专家·技能·连接器 → 技能 → 添加技能 → 上传技能」中导入。
 
-通用包解压后，把完整`screenshot-to-manual`目录放到客户端技能根目录中。源码仓库提供项目级安装器：
+通用包解压后，把完整`screenshot-to-manual`目录放到客户端技能根目录中。从源码安装，以 Codex 项目目录为例：
 
 ```bash
+git clone https://github.com/zcjunblog/screenshot-to-manual.git
+cd screenshot-to-manual
 python3 tools/install.py --client codex --project /path/to/project --dry-run
 python3 tools/install.py --client codex --project /path/to/project
 ```
@@ -105,7 +109,19 @@ python3 tools/install.py --client codex --project /path/to/project
 
 具体目录与客户端实测状态见[兼容说明](docs/compatibility.md)。发现Skill不代表宿主具有看图、执行Python或导出文档能力。
 
-### 2 提供截图和说明
+### 2 检查图片与文档能力
+
+在仓库目录准备独立Python环境，安装图片处理与Word依赖：
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r skills/screenshot-to-manual/requirements.txt -r skills/screenshot-to-manual/requirements-optional.txt
+.venv/bin/python skills/screenshot-to-manual/scripts/manual_tool.py doctor
+```
+
+让Agent使用检测通过的解释器。Windows的解释器为`.venv\Scripts\python.exe`。PDF另需本机LibreOffice；`doctor`会报告当前Word/PDF能力。没有PDF转换环境时仍可交付Word、Markdown与派生图片，文件清单会记录实际生成状态。
+
+### 3 提供截图和说明
 
 ```text
 使用截图转操作手册，把这些后台截图整理成给新员工看的图文指南。
@@ -115,7 +131,7 @@ python3 tools/install.py --client codex --project /path/to/project
 
 可补充目标读者、软件版本、已有步骤说明、标题和模板用途。信息不足时先生成有依据的部分，集中列出问题；用户不必先填写完整问卷。
 
-### 3 审阅并移交
+### 4 审阅并移交
 
 先检查正文、图片遮盖和步骤是否符合实际，再使用移交ZIP交给读者。修改截图后重新登记来源、核对坐标，不覆盖原图和旧产物。
 
@@ -149,6 +165,17 @@ Python3.9+，Pillow负责图片读取与处理；Word使用可选python-docx，P
 
 演示原图、人工预期步骤、截图坐标记录和复现工具保存在examples与tools。人工预期模型验证工程流程；真实Agent任务和客户端验证分别记录。
 
+## 客户端与验证范围
+
+| 接入方式 | 当前记录 |
+| --- | --- |
+| WorkBuddy | 已完成原始截图到Word/PDF/ZIP的实际任务，另有三模板导出记录 |
+| Codex、Claude Code、Cursor、Copilot、Gemini CLI、OpenCode | 提供安装目录适配与安装器验证；尚未逐一完成本Skill真实客户端任务 |
+| 其他Agent | 可显式读取SKILL.md；须具备图片理解、文件读写和脚本执行能力 |
+| Windows/Linux | 需继续验证字体、图片处理和文档转换环境 |
+
+客户端需要能够实际阅读原图。脚本负责来源、坐标、图片处理和文件导出，图片语义由当前Agent理解；目录安装成功不代表已经验证所有宿主。详见[兼容说明](docs/compatibility.md)。
+
 ## 验证与边界
 
 详见[本版验证报告](evidence/0.1.0/verification.md)。脚本检查结构、引文、摘要和坐标；截图语义、点击效果、隐私覆盖完整性、业务完成与实际读者体验仍需复核。图片文字模糊或缺少中间页面时，Skill应保留缺口。
@@ -156,14 +183,14 @@ Python3.9+，Pillow负责图片读取与处理；Word使用可选python-docx，P
 开发命令：
 
 ```bash
-python3 -m unittest discover -s tests -v
-python3 tools/build_release.py
-python3 tools/smoke_archive.py
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python tools/build_release.py --out outputs/release-preview
+.venv/bin/python tools/smoke_archive.py
 ```
 
 测试环境需要Pillow，Word相关用例按可选依赖运行；不会将固定样例通过写成所有客户端、行业或操作均已验证。
 
-## 路线图与开源计划
+## 路线图
 
 v0.1.0聚焦截图整理、步骤依据、可编辑交付和三套文档模板。后续结合实际使用反馈继续完善：
 
@@ -172,7 +199,15 @@ v0.1.0聚焦截图整理、步骤依据、可编辑交付和三套文档模板�
 - 既有手册的增量更新与截图替换。
 - 更多客户端、操作系统与文档转换环境的验证。
 
-项目计划在发布后开源。公开前补齐许可证、贡献说明与发布资料，具体使用条款以正式许可证为准。v0.1.0已提交WorkBuddy技能市场审核，当前尚未上线，详见[提审记录](docs/marketplace/submission.md)；仓库尚未公开。
+## 参与贡献与许可证
+
+项目已开源，采用 [MIT 许可证](LICENSE)。欢迎贡献真实操作场景的脱敏样例、可编辑模板、图片处理改进与文档修复，流程见[贡献指南](CONTRIBUTING.md)。
+
+反馈请附版本、系统、所选模板、预期步骤与实际结果。截图应来自有权公开的演示系统或充分脱敏的材料；不要上传真实业务页面、个人信息、内部文档或账号凭据。
+
+[提交问题或建议](https://github.com/zcjunblog/screenshot-to-manual/issues) · [查看源码](https://github.com/zcjunblog/screenshot-to-manual)
+
+GitHub开源独立于市场审核；WorkBuddy历史提审与后续状态以[平台记录](docs/marketplace/submission.md)为准。
 
 [版本记录](CHANGELOG.md) · [产品设计](memory-bank/design.md) · [开发待办](memory-bank/todo.md) · [校验摘要](releases/0.1.0/SHA256SUMS)
 

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-06",
+  "repository": "https://github.com/zcjunblog/screenshot-to-manual",
+  "license": "MIT",
+  "stage": "ready_to_open_source",
+  "history": {
+    "scope": "all locally available Git refs, blobs and nested ZIP contents",
+    "git_objects_checked": 189,
+    "historical_blobs_checked": 124,
+    "zip_containers_checked_including_docx": 12,
+    "credential_patterns_absent": true,
+    "known_historical_noncredential_local_path_records": 2,
+    "current_path_records_redacted": true,
+    "commit_history_preserved": true
+  },
+  "current_tree": {
+    "files_checked": 122,
+    "developer_home_paths_absent": true,
+    "local_markdown_and_html_links_valid": true,
+    "private_runtime_paths_ignored": true,
+    "skill_source_and_distribution_metadata_unchanged": true
+  },
+  "tests": {
+    "full_dependencies": 51,
+    "passed": 51,
+    "skipped": 0
+  },
+  "archive_smoke": {
+    "profiles": 2,
+    "cases_per_profile": 3,
+    "passed": true,
+    "word_generated": true,
+    "pdf_revalidated_this_round": false
+  },
+  "existing_packages": [
+    {
+      "path": "releases/0.1.0/screenshot-to-manual-0.1.0.zip",
+      "sha256": "451633a30f4d0e495690ca9829415f6cbc0b445ec7b060bf824827f3e5b729c5",
+      "unchanged": true
+    },
+    {
+      "path": "releases/0.1.0/screenshot-to-manual-workbuddy-0.1.0.zip",
+      "sha256": "81129d7ad62acb52662b82514949e44bc6defb4634eb6155131b8eb5293217d9",
+      "unchanged": true
+    }
+  ],
+  "marketplace_overview_modified": false,
+  "release_copy_rule": "Future user-facing overviews explain scenarios, capabilities, steps, outcomes and necessary conditions. Test/CI/acceptance details stay in engineering evidence."
+}
